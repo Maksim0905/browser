@@ -4,7 +4,7 @@ def run(playwright) -> None:
     browser = playwright.chromium.launch(headless=True)
     context = browser.new_context()
     page = context.new_page()
-    page.goto("https://alphabet-physics.ru/")
+    page.goto("https://alpha-bet.ru/")
     
     while True:
         page.reload()
